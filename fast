@@ -1,0 +1,3 @@
+wg-quick down wgcf-profile
+wg-quick up wgcf-profile
+sudo systemctl restart wg-quick@wgcf-profile.service
